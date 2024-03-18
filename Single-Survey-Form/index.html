@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "keywords" content = "Html , Css , Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single-Survey-Page</title>
+    <link rel="icon" type="image/x-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="main-container">
+        <article class="mini-container">
+            <h2 class="mini-heading"> Begginer Survey Form </h2>
+            <form action="./action_page.php" id="formId">
+                <fieldset class="fieldset-card">
+                    <legend class="legend"> Personal Details :  </legend> 
+                    <label for="userTextId" class="label-class"> Name : </label>
+                    <input type="text" class="input-type" name="user-name"  id="userTextId"/> 
+                    <br>
+                    <label for="userAddressId" class="label-class"> Address : </label>
+                    <input type="text" class="input-type" name="user-name"  id="userAddressId"/> 
+                    <br>
+                    <label for="userEmailId" class="label-class"> Email : </label>
+                    <input type="email" class="input-type" name="user-name"  id="userEmailId"/> 
+                    <br>
+                    <label for="userNumberId" class="label-class"> Number : </label>
+                    <input type="tel" class="input-type" name="user-name"  id="userNumberId"/> 
+                    <br>
+                    <p class="gender-select"> Please select your gender : </p> 
+                    <br>
+                    <input type="radio" class="input-types" name="user-name"  id="userMaleId"/> 
+                    <label for="userMaleId" class="label-class"> Male  </label>
+                    <br>
+                    <input type="radio" class="input-types" name="user-name"  id="userFemaleId" checked/> 
+                    <label for="userFemaleId" class="label-class"> Female  </label>
+                    <br>
+                    <input type="radio" class="input-types" name="user-name"  id="userNonbinaryId"/> 
+                    <label for="userNonbinaryId" class="label-class"> Non-binary  </label>
+                    <br>
+                    <input type="radio" class="input-types" name="user-name"  id="userDonotId"/> 
+                    <label for="userDonotId" class="label-class"> Prefer not to say  </label>
+                </fieldset>
+                <fieldset class="fieldset-card">
+                    <legend class="legend"> Additional Information </legend>
+                    <p class="textarea"> Enter Yout Background Information</p>
+                    <textarea class="textclass" name="w3review" rows="8" cols="50" >Enter your Education Background here</textarea>
+                </fieldset>
+                <div>
+                    <button class="button"> Submit </button>
+                </div>
+                
+            </form>
+        </article>
+    </section>
+</body>
+</html>

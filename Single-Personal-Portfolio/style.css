@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  font-family:"Roboto";
+  font-size:35px;
+  text-align: center;
+  color:white;
+  text-shadow: 3px 4px 5px black;
+  font-weight:600;
+  height:90px;
+  padding-top:10px;
+  background-image: linear-gradient(to right,black,red,black);
+}
+
+header::first-letter{
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+.main-container{
+  min-width:100vw;
+  min-height:100vh;
+  display: flex;
+}
+
+.left-container{
+    width:400px;
+    background-color: aqua;
+    
+}
+
+.image{
+  width:400px;
+  border-radius:10px;
+}
+
+.left-container-sub-part{
+  background-color: aqua;
+  padding-top:10px;
+  border-radius:10px;
+  height:70vh;
+}
+
+.main-heading{
+    font-family: sans-serif;
+    font-weight:bold;
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    
+   
+}
+
+.main-para{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para{
+  word-break: keep-all;
+  padding:40px;
+  word-spacing: 5px;
+}
+
+
+.second-part{
+  background-color:darkgray;
+  width:100%;
+  text-align: center;
+}
+
+.second-part-heading{
+  color:white;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top:20px;
+}
+
+.second-part-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:20px;
+}
+
+.coding-card{
+  width:350px;
+  height:500px;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  margin:40px 0px 0px 10px;
+  padding:20px 0px 0px 0px;
+}
+
+.mini-heading{
+  color:pink;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:10px;
+}
+
+.mini-para{
+  color:black;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:10px;
+
+}
+
+.stars{
+  color:aqua;
+  align-self: flex-end;
+  margin:10px 10px 0px 10px;
+}
+
+.svg-icon{
+  height:200px;
+  width:200px;
+}
+
+.footer{
+  
+  margin-top:10px;
+}
+.footer-heading{
+  padding:10px;
+}
+.footer-para{
+  padding:15px;
+}
+
+.emoji{
+  display: inline-block;
+}

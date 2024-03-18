@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header-section{
+    margin:10px;
+    background-color: grey;
+    padding:20px;
+}
+.header-heading{
+    font: size 20px;
+    color:white;
+}
+
+.image{
+    height:50px;
+    width:80px;
+}
+.nav-sec{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0px 20px 150px ;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right:90px;
+}
+.second-container{
+    padding:20px;
+}
+.second-heading{
+    font-size: 20px;
+    padding-bottom:9px;
+    font-family: "Roboto";
+}
+.second-para{
+    font-size: 15px;
+    padding-bottom:9px;
+    font-family: "Roboto";
+}
+
+.active-link:active{
+    color:red;
+    
+}
+.active-link{
+    color:blue;
+    text-decoration: underline;
+    padding-bottom:10px;
+}
+.img{
+    height:550px;
+    width:90%;
+    padding-top:20px;
+    padding-left:40px;
+}
+.third-container{
+    padding:20px;
+    display: flex;
+    justify-content:space-between;
+    margin:20px;
+}
+.course-overview{
+    padding:10px;
+    margin:10px;
+}
+.courseview-headind{
+    font-size:25px;
+}
+.courseview-para{
+    font-size:20px;
+    padding:20px;
+}
+ul{
+    padding-left:40px;
+    padding-top:30px;
+}
+li{
+    font-size:20px;
+}
+.table{
+    padding:20px;
+}
+th,td,tr{
+    border:1px solid black;
+}
+.footer{
+    background-color:darkgreen;
+    text-align: center;
+    color:white;
+    margin-bottom:10px;
+}

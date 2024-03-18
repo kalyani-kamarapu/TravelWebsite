@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: bisque;
+    padding:10px 10px 0px 10px;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-item{
+    color:black;
+    font-weight:600;
+    font-size: 18px;
+}
+.span{
+    color:orange;
+}
+.div-nav-items{
+    font-size: 18px;
+    padding:10px;
+    font-weight:500;
+}
+.follower-number-container{
+   display: flex;
+   justify-content: space-around;
+   padding-top:30px;
+}
+.followers-number{
+    font-size:19px;
+    color:lightcoral;
+}
+.name-followers{
+    display: flex;
+    justify-content: space-around;
+    height:30px;
+    box-shadow:10px 10px 35px black;
+    border-radius: 25px;
+}
+.utube{
+    color:lightsalmon;
+}
+
+.middile-container{
+    text-align: center;
+    padding-top:50px;
+}
+.middle-container-heading{
+    font-size:25px;
+    font-weight:800;
+}
+.box-containers{
+    display: flex;
+    flex-direction: column;
+}
+.first-box-containers{
+    display: flex;
+}
+.box-container{
+    padding:10px;
+    margin:5px;
+    border:2px solid black;
+    border-radius:6px;
+    margin-top:40px;
+    margin-left:5px;
+    text-align: left;
+}
+.img{
+   height:100px;
+   width:145px;
+}
+.box-name{
+    font-size:18px;
+    padding:5px;
+}
+.price{
+   font-size:20px;
+   color:lightsalmon;
+   padding:5px;
+   
+}
+.button{
+    height:30px;
+    width:80px;
+    border-radius:30px;
+    border:none;
+    background-color: orange;
+    color:white;
+
+}

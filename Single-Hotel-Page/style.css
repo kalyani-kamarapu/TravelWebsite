@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-image:linear-gradient(to bottom, black,rgb(26, 36, 36));
+    min-width:100vw;
+    padding-bottom:20px;
+}
+.main-heading{
+    font-size: 60px;
+    color:white;
+    font-family: "Roboto";
+    text-align: center;
+    padding:10px;
+}
+.main-heading::first-letter{
+    font-size: 70px;
+}
+
+.second-part-heading{
+    text-align: right;
+}
+.second-part-heading{
+    font-size:50px;
+    font-family: cursive;
+    color:white;
+    padding-right:30px;
+    padding-top:150px;
+}
+.second-part-para{
+    font-size:20px;
+    font-family: "Roboto";
+    color:white;
+    padding-right:30px;
+    padding-top:20px;
+    text-align: right;
+}
+.third-part{
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third-para{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    padding-top:50px;
+    padding-bottom:20px;
+}   
+.table-container{
+    margin:20px;
+}
+.table-heading{
+    font-size:18px;
+    color:white;
+    font-family: "Roboto";
+    background-color:red;
+    text-align: left;
+    padding:20px;
+}
+.table-row{
+    color:white;
+ }
+ 
+
+table,th,td{
+    border:1px solid red;
+    border-collapse:collapse;
+}
+.img{
+    height:140px;
+    width:190px;
+    padding:10px;
+}
+.table-td{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border:none;
+}
+
+span{
+    text-align: center;
+    color:white;
+    font-size:20px;
+}
+.table-data{
+    color:white;
+    font-size:16px;
+    
+}
+.table-data{
+    padding-left:40px;
+    padding-right:20px;
+}
+
+.table-li{
+    padding:5px;
+}
+a{
+    color:white;
+    font-size:20px;
+    padding:60px;
+}
+.footer{
+    background-color:darksalmon;
+    padding:40px;
+    text-align: center;
+}
+.footer-para{
+    font-size:20px;
+    color:white;
+}

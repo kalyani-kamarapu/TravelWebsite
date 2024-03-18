@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: lightblue;
+    padding:20px;
+    margin: auto;
+}
+.mini-container{
+    border-radius: 5px;
+    background-color: darkslategray;
+}
+.mini-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    padding:10px;
+    text-align: center;
+}
+.fieldset-card{
+    color:aqua;
+    margin:20px;
+}
+.legend{
+    font-size: 20px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.input-type{
+    border-radius:5px;
+    height:30px;
+    border:none;
+    margin:5px;
+    width:260px;
+}
+.label-class{
+    padding-left:10px;
+}
+.gender-select{
+    padding-left:10px;
+    padding-top:5px;
+   
+}
+.input-types{
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.textarea{
+    padding:15px;
+}
+.textclass{
+    padding:10px;
+    font-size:18px;
+    margin:20px;
+    border-radius: 10px;
+    font-weight: 100;
+    opacity:0.5;
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.button{
+    height:30px;
+    width:110px;
+    background-color:white;
+    color:black;
+    font-size: 14px;
+    font-family: "Roboto";
+    text-align: center;
+    border-radius:5px;
+    border:none;
+    margin-bottom:20px;
+    align-items: center;
+}

@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color:dimgray;
+    min-height: 100vh;
+    min-width:100vw;
+}
+.main-heading{
+   font-size:30px;
+   color:white;
+   background-color:blueviolet ;
+   padding:10px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: "Roboto";
+}
+.nav-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.small-nav-items{
+    padding:20px;
+}
+.img{
+   height:120px;
+   width:120px; 
+}
+a{
+    font-size:19px;
+    padding-left:25px;
+}
+.shopping-image{
+    width:90%;
+    height:600px;
+    padding:60px 20px 20px 120px;
+}
+.third-container{
+    padding-top:20px;
+}
+.third-heading{
+    text-align: center;
+    color:white;
+    font-size:25px;
+    padding-bottom:20px;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    border:1px solid black;
+    margin-bottom:20px;
+}
+.table-row{
+    background-color: lightblue;
+    text-align: center;
+}
+tr{
+    color:black;
+    font-size:19px;
+    font-family: "Roboto";
+    border:1px solid black;
+}
+.table-data{
+    color:black;
+    font-size:15px;
+    font-family: "Roboto";
+}
+del{
+    padding-right:6px;
+}
+ins{
+    text-decoration: none;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:15px;
+}
+.fourth-section{
+    opacity:0.4;
+    padding:25px;
+}
+.footer-container{
+    background-color:darkseagreen;
+    text-align: center;
+    padding:25px;
+    font-size: 20px;
+    font-weight:700;
+}
+.first-para{
+    padding:10px;
+}
+
+.ul-container{
+    padding:25px;
+}

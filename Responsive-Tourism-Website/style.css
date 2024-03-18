@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.banner-container{
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height:100vh;
+    min-width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-container{
+    background-color:white;
+    padding:30px;
+    border-radius:20px;
+    text-align: center;
+    margin-bottom:10px;
+    box-shadow:12px 12px 35px black;
+}
+
+.card-container:hover{
+    background-image: linear-gradient(to right,rgb(142, 132, 132),rgb(117, 157, 117),rgb(20, 17, 17));
+}
+
+.main-heading{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    padding:3px;
+    color:black;
+}
+.main-heading:hover{
+    color:white;
+}
+.main-para{
+    font-family:monospace;
+    font-size: 20px;
+    padding:3px;
+    color:black;
+    padding-bottom:5px;
+}
+.main-para:hover{
+    color:white;
+}
+.div-container{
+    text-align: center;
+    margin-top:20px;
+}
+.button{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    height:40px;
+    width:90px;
+    font-size:15px;
+    text-align: center;
+} 
+
+button:hover{
+    animation:buttonAnimation .8s ease-in-out infinite;
+    transition: all .8s linear;
+    background-image:linear-gradient(to right,black,red,black);
+}
+
+@keyframes buttonAnimation {
+  
+    50%{
+        
+        transform: scale(2,2);
+    }
+
+}
+.secondContainer{
+    background-image: url(./second-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height:100vh;
+    min-width:100vw;
+}
+.second-heading{
+    padding:40px;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+    color:White;
+}
+.second-div-container-1{
+    
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+   
+}
+
+.divs{
+    background-color: white;
+    margin:20px 30px;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow:12px 12px 35px black;
+}
+.divs:hover{
+    background-image: linear-gradient(to right,rgb(134, 114, 114),rgb(101, 153, 101),rgb(134, 114, 114));
+}
+
+.img{
+    height:150px;
+    width:250px;
+}
+.div-heading{
+    font-size:30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+.div-para{
+    font-size:17px;
+    font-weight: bold;
+    font-family: "Roboto";
+    padding-top:45px;
+}
+.mini-div-3{
+    text-align: center;
+    margin:20px;
+}
+.know-more{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    height:40px;
+    width:90px;
+    font-size:15px;
+    text-align: center;
+    margin-bottom:10px;
+}
+.know-more:hover{
+    animation:buttonAnimations .8s ease-in-out infinite;
+    transition: all .8s linear;
+    background-image:linear-gradient(to right,black,red,black);
+}
+
+@keyframes buttonAnimations {
+  
+    50%{
+        
+        transform:translate(10px);
+    }
+
+}
+
+
+
+.beside{
+    display: flex;
+    justify-content: space-between;
+}
+.thirdContainer{
+    background-image: url(./third-one-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height:100vh;
+    min-width:100vw;
+}
+
+.third-main-heading{
+    padding-top:40px;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+
+
+.div{
+    background-color: white;
+    padding: 30px;
+    margin:50px 50px;
+    border-radius: 40px;
+    border:1px solid black;
+    border:1px solid black;
+    box-shadow:12px 12px 35px black;
+}
+
+
+.third-div-mini{
+    margin-top:20px;
+    text-align: center;
+}
+.card-image{
+    width:90%;
+}
+.third-div{
+    padding-top:40px;
+}
+.third-heading{
+    font-size:28px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+}
+.third-para{
+    font-size:18px;
+    font-weight:normal;
+    font-family: "Roboto";
+    padding-top:20px;
+}
+.thirdContainer{
+    padding:20px;
+}
+.div:hover{
+    background-image: linear-gradient(to right,rgb(134, 114, 114),rgb(101, 153, 101),rgb(134, 114, 114));
+}
+.third-button-container{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.third-button{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    height:40px;
+    width:90px;
+    font-size:15px;
+    text-align: center;
+    margin-bottom:10px;
+}
+.third-button:hover{
+    animation:buttonAnimationss .8s ease-in-out infinite;
+    transition: all .8s linear;
+    background-image:linear-gradient(to right,black,red,black);
+}
+
+@keyframes buttonAnimationss {
+  
+    50%{
+        
+        transform:translate(10px);
+    }
+
+}
+
+@media screen and (max-width : 576px){
+    .second-div-container-1{
+        display: flex;
+        flex-direction: column;
+        padding:30px;
+    }
+    .mini-div{
+        text-align: center;
+        
+    }
+    .mini-div-2{
+        text-align: center;
+        padding-top:30px;
+    }
+
+}
+
+

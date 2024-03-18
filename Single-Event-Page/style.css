@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.first-nav{
+    background-color:darkslategrey;
+    width:100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:100px;
+}
+.svg{
+    height:20px;
+    width:40px;
+    padding-right:20px;
+}
+.mini-headings{
+    font-size:14px;
+    padding-right:20px;
+    color:white;
+}
+.second-part{
+    background-color: beige;
+    height: auto;
+}
+.nav-part{
+    display: flex;
+    justify-content: space-between;
+    margin-left:150px;
+    margin-right:150px;
+}
+.nav-svg{
+    height:30px;
+    width:50px;
+}
+.anchor-ele{
+    padding:10px;
+}
+a{
+    padding:20px;
+}
+.special{
+    border:2px solid red;
+    padding:5px;
+}
+.third-part{
+    background-color:lightgray ;
+    padding-top:40px;
+    padding-left:140px;
+    padding-bottom:40px;
+}
+.third-heading{
+    font-size:20px;
+    color:lightcoral;
+    letter-spacing:2px;
+    padding-bottom:10px;
+}
+.third-heading-2{
+    font-size:60px;
+    color:lightcoral;
+    padding-bottom:10px;
+    text-transform: capitalize;
+}
+.third-para{
+    font-size:11px;
+    color:lightcoral;
+    padding-bottom:10px;
+}
+.third-para-4{
+    font-size:17px;
+    color:darkslategray;
+    padding-bottom:10px;
+}
+.third-para-2{
+    font-size:12px;
+    color:darkslategray;
+    padding-bottom:10px;
+}
+.fourth-part{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+}
+.fourth-part{
+    font-size:18px;
+    padding-top:10px;
+    color:white;
+    font-weight: bold;
+    text-decoration: underline 1px solid red;
+    text-underline-offset: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourth-container{
+    display: flex;
+}
+.fourth-svg{
+    height:90px;
+    width:110px;
+}
+.fourth-parat{
+    color:lightgoldenrodyellow;
+    font-size:15px;
+    text-decoration: none;
+    padding:8px;
+}
+.fourth-img{
+    height:90px;
+    width:110px;
+}
+.small-boxed{
+    background-color: lightslategray;
+    width:180px;
+    padding:20px;
+    margin:10px;
+    text-align: center;
+}
+.fourth-part-mini-heading{
+    text-align: center;
+}
