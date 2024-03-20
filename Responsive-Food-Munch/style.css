@@ -1,0 +1,344 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.main-container{
+    min-width:100vw;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: white;
+    
+}
+.logo{
+    height:90px;
+    width:100px;
+}
+.menu{
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size:17px;
+    padding:9px;
+    font-family: "Roboto";
+    font-weight:bold;
+}
+
+.nav-container{
+   display: none;
+   
+}
+.menu-container{
+    padding-right:40px;
+}
+
+@media screen and (min-width:768px){
+    .menu-container{
+        display: none;
+    }
+    .nav-container{
+        display: block !important;;
+        justify-content: flex-end;
+        align-items: center;
+        color:white;
+    }
+}
+
+@media screen and (max-width:768px){
+    nav a {
+        display: block;
+    }
+    .nav-container{
+        position: absolute;
+        left:0%;
+        top:100%;
+        background-color: white;
+        width:100vw;
+    }
+
+}
+
+.bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    min-width:100vw;
+    min-height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-container-heading{
+    font-family: "Roboto";
+    font-size:35px;
+    font-weight:600;
+    color:white;
+    padding:5px;
+}
+
+.bg-container-para{
+    font-family: "Roboto";
+    font-size:22px;
+    font-weight:400;
+    color:white;
+    padding:10px;
+}
+
+.button{
+    height:50px;
+    width:140px;
+    border-radius:5px;
+    text-align: center;
+    padding:5px;
+    margin:10px;
+    font-family: "Roboto";
+    font-size:18px;
+    font-weight:700;
+    color:white;
+    border:0px;
+}
+.button-container{
+    padding:10px;
+}
+.button-viewNow{
+    background-color: rgb(183, 141, 63);
+}
+.button-viewNow:hover{
+    background-color: transparent;
+    border:2px solid  rgb(183, 141, 63);
+    color:black;
+}
+.button-orderNow{
+    background-color: transparent;
+    border:2px solid  rgb(183, 141, 63);
+} 
+.button-orderNow:hover{
+    background-color: rgb(183, 141, 63);
+    color:black;
+}
+.wcu-section-heading{
+    font-family: "Roboto";
+    font-size:35px;
+    padding-top:20px;
+    color:rgb(91, 81, 100);
+    font-weight: 700;
+}
+.wcu-section-description{
+    font-family: "Roboto";
+    font-size:18px;
+    
+    color:rgb(91, 81, 100);
+    font-weight: 700;
+}
+
+.card-whychooseus{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border:1px solid black;
+    margin:10px;
+   
+}
+.card-whychooseus:hover{
+    transform:translate(60px);
+    transition:all .1s linear .1s;
+}
+@media screen and (min-width:769px){
+    .card-whychooseus:hover{
+        transform:translate(20px,20px);
+        transition:all .1s linear .1s;
+    }
+}
+.card-images{
+    height:130px;
+    width:150px;
+}
+.card-heading{
+    font-family: "Roboto";
+    font-size:27px;
+    color:black;
+    font-weight: 500;
+    padding:10px;
+}
+.card-para{
+    font-family: "Roboto";
+    font-size:15px;
+    color:black;
+    font-weight: 500;
+    padding:10px;
+}
+.explore-heading{
+    font-family: "Roboto";
+    font-size:35px;
+    padding-top:20px;
+    color:rgb(91, 81, 100);
+    font-weight: 700;
+}
+.card-explore{
+    padding:10px;
+    box-shadow: 3px 4px 24px black;
+    margin:15px;
+    border-radius:10px;
+}
+.card-explore:hover{
+    transform:translate(60px);
+    transition:all .1s linear .1s;
+}
+@media screen and (min-width:769px){
+    .card-explore:hover{
+        transform:translate(10px,10px);
+        transition:all .1s linear .1s;
+    }
+}
+.explore-card{
+    border-radius: 10px;
+    width:100%;
+}
+.explore-link{
+    padding:10px;
+    color:orange;
+    cursor: pointer;
+}
+.food-image{
+    width:50%;
+}
+.freshFood-heading{
+    font-family: "Roboto";
+    font-size:35px;
+    font-weight:600;
+}
+.freshFood-para{
+    font-family: "Roboto";
+    font-size:19px;
+    font-weight:400;
+}
+.delivery-payments{
+    font-family: "Roboto";
+    font-size:35px;
+    padding-top:20px;
+    color:rgb(91, 81, 100);
+    font-weight: 700;
+}
+.delivery-para{
+    font-family: "Roboto";
+    font-size:19px;
+    font-weight:400;
+}
+.delivery-image{
+    width:50%;
+}
+.delivery{
+    margin-right:40px;
+}
+.payment-card-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thankyou-section{
+    background-image:linear-gradient(to right,rgb(217, 215, 200),rgb(234, 224, 177));
+    width:100vw;
+    margin-top:40px;
+}
+
+.thankyou-heading{
+    font-family: "Roboto";
+    font-size:35px;
+    padding-top:20px;
+    color:rgb(91, 81, 100);
+    font-weight: 700;
+}
+.thankyou-para{
+    font-family: "Roboto";
+    font-size:19px;
+    font-weight:400;
+}
+.thankyou{
+    width:50%;
+}
+.follow-us{
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icons{
+    display: flex;
+}
+.twitter{
+    margin:10px;
+    border-radius: 50%;
+    background-color:rgb(234, 224, 177);
+    padding:20px;
+    margin:20px;
+    animation:icon-animation .9s ease-in-out infinite;
+    transition: all .9s linear;
+    
+}
+.instagram{
+    margin:10px;
+    border-radius: 50%;
+    background-color:rgb(234, 224, 177);
+    padding:20px;
+    margin:20px;
+    animation:icon-animation .9s ease-in-out infinite;
+    transition: all .9s linear;
+}
+.facebook{
+    margin:10px;
+    border-radius: 50%;
+    background-color:rgb(234, 224, 177);
+    padding:20px;
+    margin:20px;
+    animation:icon-animation .9s ease-in-out infinite;
+    transition: all .9s linear;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+    
+}
+@keyframes icon-animation{
+    0%{
+        transform:translate(20px,40px);
+    }
+}
+
+
+.footer-sections{
+    background-color: #0d2436;
+    margin-top:20px;
+}
+.img-sec{
+    margin:10px;
+}
+.footer-add{
+    font-size:25px;
+    font-weight:700;
+    color:white;
+    font-family: "Roboto";
+    padding:10px;
+}
+.footer-add-para{
+    font-size:20px;
+    font-weight:400;
+    color:white;
+    font-family: "Roboto";
+}
